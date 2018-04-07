@@ -13,7 +13,7 @@
 			"        };",
 			"        js = d.createElement(s);",
 			"        js.async = true;",
-			"        js.src = \"https://www.smart-tribune.dav/faq/smart-tribune-faq-v2.min.js?callback=?&client=${1:client}&env=${2:env}\";",
+			"        js.src = \"https://static.smart-tribune.com/faq/general/smart-tribune-faq-v2.min.js?callback=?&client=${1:client}&env=${2:env}\";",
 			"        fjs.parentNode.insertBefore(js, fjs);",
 			"    }(document, 'script'));",
 			"</script>"
@@ -35,7 +35,7 @@
 			"        }",
 			"    }",
 			"</script>",
-			"<script type=\"text/javascript\" src=\"https://www.smart-tribune.dav/faq/helpbox/smart-tribune-helpbox.min.js?callback=?&client=${6:client}&env=${7:env}\"></script>"
+			"<script type=\"text/javascript\" src=\"https://static.smart-tribune.com/faq/helpbox/smart-tribune-helpbox.min.js?callback=?&client=${6:client}&env=${7:env}\"></script>"
 		],
 		"description": "Insert Helpbox"
 	}
