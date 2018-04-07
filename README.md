@@ -1,5 +1,9 @@
 # Smart Tribune Snippets
 
+[![Version](https://vsmarketplacebadge.apphb.com/version/smart-tribune-snippets.svg)](https://marketplace.visualstudio.com/items?itemName=xavierbriole.smart-tribune-snippets)
+[![Installs](https://vsmarketplacebadge.apphb.com/installs/smart-tribune-snippets.svg)](https://marketplace.visualstudio.com/items?itemName=xavierbriole.smart-tribune-snippets)
+[![Ratings](https://vsmarketplacebadge.apphb.com/rating/smart-tribune-snippets.svg)](https://marketplace.visualstudio.com/items?itemName=xavierbriole.smart-tribune-snippets)
+
 ## Description
 Easily integrate Smart Tribune products in your page.
 
