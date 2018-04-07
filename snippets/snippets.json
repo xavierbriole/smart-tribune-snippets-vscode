@@ -1,0 +1,42 @@
+{
+	"Insert Smart FAQ": {
+		"scope": "html,php",
+		"prefix": "stfaq",
+		"body": [
+			"<div id=\"st-faq\"></div>",
+			"<script type=\"text/javascript\">",
+			"    (function (d, s) {",
+			"        var js,",
+			"            fjs = d.getElementsByTagName(s)[0];",
+			"        if (typeof __STFAQ !== 'undefined') {",
+			"            return;",
+			"        };",
+			"        js = d.createElement(s);",
+			"        js.async = true;",
+			"        js.src = \"https://www.smart-tribune.dav/faq/smart-tribune-faq-v2.min.js?callback=?&client=${1:client}&env=${2:env}\";",
+			"        fjs.parentNode.insertBefore(js, fjs);",
+			"    }(document, 'script'));",
+			"</script>"
+		],
+		"description": "Insert Smart FAQ"
+	},
+	"Insert HB": {
+		"scope": "html,php",
+		"prefix": "sthb",
+		"body": [
+			"<script>",
+			"    var STHelpbox = {",
+			"        categories : '${1:categories}',",
+			"        themes : '${2:themes}',",
+			"        trigger : {",
+			"            onCloseNoRepeat : '${3:onCloseNoRepeat}',",
+			"            timer : ${4:timer},",
+			"            onInactivity : '${5:onInactivity}'",
+			"        }",
+			"    }",
+			"</script>",
+			"<script type=\"text/javascript\" src=\"https://www.smart-tribune.dav/faq/helpbox/smart-tribune-helpbox.min.js?callback=?&client=${6:client}&env=${7:env}\"></script>"
+		],
+		"description": "Insert Helpbox"
+	}
+}

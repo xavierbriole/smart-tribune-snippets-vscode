@@ -1,0 +1,26 @@
+{
+    "name": "smart-tribune-snippets",
+    "description": "Easily integrate Smart Tribune products in your page.",
+    "version": "0.0.1",
+    "displayName": "Smart Tribune Snippets",
+    "publisher": "xavierbriole",
+    "icon": "images/logo.png",
+    "license": "SEE LICENSE IN LICENSE.md",
+    "engines": {
+        "vscode": "0.10.x"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [{
+                "language": "html",
+                "path": "./snippets/snippets.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/snippets.json"
+            }
+        ]
+    }
+}
