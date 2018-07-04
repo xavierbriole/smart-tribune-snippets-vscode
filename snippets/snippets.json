@@ -88,7 +88,7 @@
 	},
 	"Insert Context FAQ Widget": {
 		"scope": "html,php",
-		"prefix": "stcfs",
+		"prefix": "stct",
 		"body": [
 			"<div id=\"container\"></div>",
 			"<script type=\"text/javascript\" src=\"https://static.smart-tribune.com/faq/context/smart-tribune-contextualized-faq.min.js\"></script>",

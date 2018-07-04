@@ -12,6 +12,9 @@ Easily integrate Smart Tribune products in your page.
 | -------: | ------- |
 | `stfaq→` | Insert Smart FAQ |
 | `sthb→`  | Insert Smart Helpbox |
+| `stcfi`  | Insert Contact Form Widget (TextInput) |
+| `stcfs`  | Insert Contact Form Widget (SelectList) |
+| `stct`  | Insert Context FAQ Widget |
 
 ## Supported languages
 * HTML (.html)
