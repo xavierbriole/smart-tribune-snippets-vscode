@@ -18,9 +18,9 @@
 			"    }(document, 'script'));",
 			"</script>"
 		],
-		"description": "Insert Smart FAQ"
+		"description": "Insert the Smart Tribune dynamic FAQ"
 	},
-	"Insert HB": {
+	"Insert Smart Helpbox": {
 		"scope": "html,php",
 		"prefix": "sthb",
 		"body": [
@@ -37,6 +37,71 @@
 			"</script>",
 			"<script type=\"text/javascript\" src=\"https://static.smart-tribune.com/faq/helpbox/smart-tribune-helpbox.min.js?callback=?&client=${6:client}&env=${7:env}\"></script>"
 		],
-		"description": "Insert Helpbox"
+		"description": "Insert the Smart Tribune Helpbox"
+	},
+	"Insert Contact Form Widget (TextInput)": {
+		"scope": "html,php",
+		"prefix": "stcfi",
+		"body": [
+			"<script type=\"text/javascript\" src=\"https://static.smart-tribune.com/faq/contact/smart-tribune.dynamic-faq.min.js\"></script>",
+			"<script type=\"text/javascript\">",
+			"    new STDFAQ({",
+			"        elementType: 'textInput',",
+			"        element: '#${1:your-field}',",
+			"        platformId: ${2:ID},",
+			"        pathToFaq: '${3:url-to-your-faq}',",
+			"        limit: ${4:limit}",
+			"    });",
+			"</script>"
+		],
+		"description": "Insert the Smart Tribune contact form widget on text input"
+	},
+	"Insert Contact Form Widget (SelectList)": {
+		"scope": "html,php",
+		"prefix": "stcfs",
+		"body": [
+			"<script type=\"text/javascript\" src=\"https://static.smart-tribune.com/faq/contact/smart-tribune.dynamic-faq.min.js\"></script>",
+			"<script type=\"text/javascript\">",
+			"    new STDFAQ({",
+			"        elementType: 'selectList',",
+			"        element: '#${1:your-field}',",
+			"        platformId: ${2:ID},",
+			"        pathToFaq: '${3:url-to-your-faq}',",
+			"        limit: ${4:limit}",
+			"        customWrapperId: '${5:your-customID}',",
+			"        selectMapping: {",
+			"           '${6:option1}': {",
+			"               categories: ['${7:category1}', '${8:category2}'],",
+			"               themes: ['${9:theme1}']",
+			"           },",
+			"           '${10:option2}': {",
+			"               categories: ['${11:category3}']",
+			"           },",
+			"           '${12:option3}': {",
+			"               categories: ['${13:category4}']",
+			"           },",
+			"        },",
+			"    });",
+			"</script>"
+		],
+		"description": "Insert the Smart Tribune contact form widget on select list"
+	},
+	"Insert Context FAQ Widget": {
+		"scope": "html,php",
+		"prefix": "stcfs",
+		"body": [
+			"<div id=\"container\"></div>",
+			"<script type=\"text/javascript\" src=\"https://static.smart-tribune.com/faq/context/smart-tribune-contextualized-faq.min.js\"></script>",
+			"<script type=\"text/javascript\">",
+			"    new STCFAQ({",
+			"        container: '#${1:your-field}',",
+			"        platformId: ${2:ID},",
+			"        category_id: '${3:categories}',",
+			"        theme_id: ${4:themes}",
+			"        limit: ${5:limit},",
+			"    });",
+			"</script>"
+		],
+		"description": "Insert the Smart Tribune context FAQ widget"
 	}
 }
