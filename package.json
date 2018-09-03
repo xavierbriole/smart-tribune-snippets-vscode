@@ -1,7 +1,7 @@
 {
     "name": "smart-tribune-snippets",
     "description": "Easily integrate Smart Tribune products in your page.",
-    "version": "2.0.2",
+    "version": "2.1.0",
     "displayName": "Smart Tribune Snippets",
     "publisher": "xavierbriole",
     "icon": "images/logo.png",
@@ -31,8 +31,8 @@
         ]
     },
     "galleryBanner": {
-        "color": "#122347",
-        "theme": "light"
+        "color": "#32325d",
+        "theme": "dark"
     },
     "bugs": {
         "url": "https://github.com/xavierbriole/smart-tribune-snippets-vscode/issues",
