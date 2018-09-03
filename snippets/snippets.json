@@ -97,7 +97,7 @@
 			"        container: '#${1:your-field}',",
 			"        platformId: ${2:ID},",
 			"        category_id: '${3:categories}',",
-			"        theme_id: ${4:themes}",
+			"        theme_id: ${4:themes},",
 			"        limit: ${5:limit},",
 			"    });",
 			"</script>"
