@@ -7,6 +7,8 @@
 ## Description
 Easily integrate Smart Tribune products in your page.
 
+All parameters of each snippet are detailled in the [Smart Tribune Setup Guide](https://www.smart-tribune.com/developers/setup-guide).
+
 ## Usage
 | Trigger  | Content |
 | -------: | ------- |
