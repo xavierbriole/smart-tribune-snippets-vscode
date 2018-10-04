@@ -38,9 +38,10 @@
 			"            trigger: {",
 			"                timer: ${7:timer}",
 			"            }",
+			"        }",
 			"    }",
 			"</script>",
-			"<script type=\"text/javascript\" src=\"https://static.smart-tribune.com/faq/helpbox/smart-tribune-helpbox.min.js?callback=?&client=${6:client}&env=${7:env}\"></script>"
+			"<script type=\"text/javascript\" src=\"https://static.smart-tribune.com/faq/helpbox/smart-tribune-helpbox.min.js?callback=?&client=${8:client}&env=${9:env}\"></script>"
 		],
 		"description": "Insert the Smart Tribune Helpbox"
 	},
