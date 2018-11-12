@@ -18,7 +18,7 @@
 			"    }(document, 'script'));",
 			"</script>"
 		],
-		"description": "Insert the Smart Tribune dynamic FAQ"
+		"description": "Insert a Smart FAQ"
 	},
 	"smart_push": {
 		"scope": "html,php",
@@ -43,7 +43,7 @@
 			"</script>",
 			"<script type=\"text/javascript\" src=\"https://static.smart-tribune.com/faq/helpbox/smart-tribune-helpbox.min.js?callback=?&client=${8:client}&env=${9:env}\"></script>"
 		],
-		"description": "Insert the Smart Tribune Helpbox"
+		"description": "Insert a Smart Push"
 	},
 	"contact_form_input_widget": {
 		"scope": "html,php",
@@ -60,7 +60,7 @@
 			"    });",
 			"</script>"
 		],
-		"description": "Insert the Smart Tribune contact form widget on text input"
+		"description": "Insert a Smart Tribune contact form widget on text input"
 	},
 	"contact_form_select_widget": {
 		"scope": "html,php",
@@ -90,7 +90,7 @@
 			"    });",
 			"</script>"
 		],
-		"description": "Insert the Smart Tribune contact form widget on select list"
+		"description": "Insert a Smart Tribune contact form widget on select list"
 	},
 	"context_widget": {
 		"scope": "html,php",
@@ -108,6 +108,6 @@
 			"    });",
 			"</script>"
 		],
-		"description": "Insert the Smart Tribune context FAQ widget"
+		"description": "Insert a Smart FAQ context widget"
 	}
 }
