@@ -1,5 +1,5 @@
 {
-	"Insert Smart FAQ": {
+	"smart_faq": {
 		"scope": "html,php",
 		"prefix": "stfaq",
 		"body": [
@@ -20,7 +20,7 @@
 		],
 		"description": "Insert the Smart Tribune dynamic FAQ"
 	},
-	"Insert Smart Helpbox": {
+	"smart_push": {
 		"scope": "html,php",
 		"prefix": "sthb",
 		"body": [
@@ -45,7 +45,7 @@
 		],
 		"description": "Insert the Smart Tribune Helpbox"
 	},
-	"Insert Contact Form Widget (TextInput)": {
+	"contact_form_input_widget": {
 		"scope": "html,php",
 		"prefix": "stcfi",
 		"body": [
@@ -62,7 +62,7 @@
 		],
 		"description": "Insert the Smart Tribune contact form widget on text input"
 	},
-	"Insert Contact Form Widget (SelectList)": {
+	"contact_form_select_widget": {
 		"scope": "html,php",
 		"prefix": "stcfs",
 		"body": [
@@ -92,7 +92,7 @@
 		],
 		"description": "Insert the Smart Tribune contact form widget on select list"
 	},
-	"Insert Context FAQ Widget": {
+	"context_widget": {
 		"scope": "html,php",
 		"prefix": "stct",
 		"body": [
