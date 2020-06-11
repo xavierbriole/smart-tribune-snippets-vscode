@@ -12,8 +12,8 @@
       "      \"locale\": \"${3:locale}\",",
       "      \"cookieOptin\": ${4:cookieOptin},",
       "      \"searchFiltered\": ${5:searchFiltered},",
-      "      \"headerId\": ${6:headerId},",
-      "      \"buildName\": ${7:buildName},",
+      "      \"headerId\": \"${6:headerId}\",",
+      "      \"buildName\": \"${7:buildName}\",",
       "      \"filters\": {",
       "        \"thematics\": [\"${8:thematic1}\"],",
       "        \"tags\": [\"${9:tag1}\"]",
@@ -39,8 +39,8 @@
       "      \"cookieOptin\": ${4:cookieOptin},",
       "      \"searchFiltered\": ${5:searchFiltered},",
       "      \"entrypoint\": {",
-      "        \"type\": [\"${6:type}\"],",
-      "        \"value\": [\"${7:value}\"]",
+      "        \"type\": \"${6:type}\",",
+      "        \"value\": \"${7:value}\"",
       "      },",
       "      \"filters\": {",
       "        \"thematics\": [\"${8:thematic1}\"],",
@@ -57,6 +57,7 @@
     "scope": "html,php",
     "prefix": "stss",
     "body": [
+      "<div id=\"${14}\"></div>",
       "<script type=\"text/javascript\">",
       "  window.addEventListener('STSearchStandaloneLoaded', function(e) {",
       "    e.detail.init({",
@@ -96,6 +97,7 @@
     "scope": "html,php",
     "prefix": "stfc",
     "body": [
+      "<div id=\"${12}\"></div>",
       "<script type=\"text/javascript\">",
       "  window.addEventListener('STFAQContextLoaded', function(e) {",
       "    e.detail.init({",
@@ -127,6 +129,7 @@
     "scope": "html,php",
     "prefix": "stcfi",
     "body": [
+      "<div id=\"${13}\"></div>",
       "<script type=\"text/javascript\">",
       "  window.addEventListener('STContactFormInputLoaded', function(e) {",
       "    e.detail.init({",
@@ -159,6 +162,7 @@
     "scope": "html,php",
     "prefix": "stcfs",
     "body": [
+      "<div id=\"${13}\"></div>",
       "<script type=\"text/javascript\">",
       "  window.addEventListener('STContactFormSelectLoaded', function(e) {",
       "    e.detail.init({",
