@@ -1,0 +1,27 @@
+name: vsce-publish
+
+on:
+  push:
+    tags:
+      - "v*"
+
+jobs:
+  vsce-publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v1
+        with:
+          node-version: 12.18.0
+
+      - name: Install Packages
+        run: yarn install
+
+      - uses: lannonbr/vsce-action@master
+        with:
+          args: "publish -p $VSCE_TOKEN"
+        env:
+          VSCE_TOKEN: ${{ secrets.VSCE_TOKEN }}
